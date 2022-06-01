@@ -6,7 +6,7 @@ const Grid = () => {
 //   console.log("grid created");
     return (
       
-    <div className='grid grid-cols-3 md:grid-col-2 xl:grid-col-4 gap-4 overflow-auto h-[100%] scrollbar scrollbar-thumb-gray-100 scrollbar-track-gray-900'>
+    <div className='grid grid-cols-5 md:grid-col-2 xl:grid-col-4 gap-4 overflow-auto h-[100%] scrollbar scrollbar-thumb-gray-100 scrollbar-track-gray-900'>
         {data.map((e)=>{
             return (
 
